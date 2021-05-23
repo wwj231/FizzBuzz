@@ -11,7 +11,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FizzBuzzTests {
 
-    private final PrintStream standardOut = System.out;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
     @BeforeEach
